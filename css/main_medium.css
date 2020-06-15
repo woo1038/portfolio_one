@@ -1,0 +1,57 @@
+/* Header(Nav) */
+.logo {
+    margin-left: 30px;
+}
+.main-menu li:nth-last-child(1) {
+    margin-right: 30px;
+}
+
+
+/* Section-1(Main Page) */
+.container h1 {
+    text-align: center;
+}
+.container h2 {
+    top: 30%;
+}
+
+
+/* Section-3(Background) */
+.section-3 {
+    height: calc(180vh - 106px);
+}
+.background-fixed {
+    max-width: 100%;
+    height: calc(90vh - 53px);
+}
+.background-fixed_a h1 {
+    font-size: 7rem;
+}
+.background-fixed_a h2 {
+    font-size: 5.5rem;
+}
+.background-fixed_a h3 {
+    font-size: 3.2rem;
+}
+.background-fixed_a h4 {
+    font-size: 2rem;
+}
+.background-fixed_a h5 {
+    font-size: 1rem;
+}
+.image_a {
+    width: 450px;
+}
+
+
+
+/* section-4(Grid) */
+.grid {
+    grid-template-columns: repeat(2, 30vw);
+    grid-template-rows: repeat(5, 30vw);
+    height: 150vw;
+}
+.grid-item:hover::before {
+    width: 30vw;
+    height: 30vw;
+}
